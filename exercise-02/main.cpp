@@ -1,4 +1,14 @@
-// Exercise 02 - Git Practice Assignment
-// Student: Atman Patel
-// Roll Number: BT25CSE180
-// Section: CSE C
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    if (n % 2 == 0)
+        cout << "Even" << endl;
+    else
+        cout << "Odd" << endl;
+
+    return 0;
+}
